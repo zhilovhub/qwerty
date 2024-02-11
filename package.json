@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "deploy": "cd dist && cp index.html 404.html && cd .. && gh-pages -d dist",
     "format": "prettier --write src/"
   },
   "dependencies": {
