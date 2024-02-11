@@ -91,6 +91,10 @@
   color: #FFFFFF;
 }
 
+.main-body {
+  position: relative;
+}
+
 .title-div {
   background-color: #20282C;
   width: 100%;
@@ -192,8 +196,8 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  position: absolute;
-  bottom: 100px;
+  position: relative;
+  margin-top: 30vh;
   padding: 10px 20px;
   div {
     display: flex;
